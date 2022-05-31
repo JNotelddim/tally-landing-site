@@ -279,18 +279,51 @@
         }
 
         #tester_submit {
+            height: 65px;
+            width: 194px;
+
             position: absolute;
             top: 6;
             right: 6;
             bottom: 7;
-            height: 65px;
-            width: 194px;
+
             /* background: #DA5635; */
             /* TODO: replace background color when ready to swap sites. */
             background: #32e4f3;
             border: none;
             border-radius: 100px;
+
             text-transform: none;
+            font-size: 20px;
+        }
+
+
+        /* Resize elements and fonts on tablets + mobile */
+        @media (max-width: 768px) {
+            #tester_profile_email{
+                font-size: 16px;
+                height: 65px;
+            }
+
+            #tester_profile_email::placeholder{
+                font-size: 16px;
+            }
+
+            #tester_submit {
+                font-size: 16px;
+                width: 134px;
+                height: 56px;
+                top: 5;
+                right: 6;
+                bottom: 6; 
+            }
+        }
+
+        /* Move button to new line on mobile */
+        @media (max-width: 475px) {
+            #tester_submit {
+                top: 77px;
+            }
         }
     </style>
 

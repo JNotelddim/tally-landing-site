@@ -291,6 +291,21 @@
         .top-margin {
             margin-top: 10px;
         } */
+
+        /* Resizing for mobile */
+        @media (max-width: 475px) {
+            .tally-h1 {
+                font-size: 70px;
+                line-height: 74px;
+            }
+
+            .mobile-tight-paragraph {
+                max-width: 80%;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+
     </style>
 
     <script
@@ -445,7 +460,7 @@
                     </p>
                 </div>
                 <!-- <hr> -->
-                <h2 class="pfy-align-center tally-h2 mb-24">
+                <h2 class="pfy-align-center tally-h2 mb-24 mobile-tight-paragraph">
                     So far you have <span id="shares">0</span> shares and <span id="referrals">0</span> referrals.
                 </h2>
                 <p class="pfy-align-center tally-paragraph tight-paragraph">

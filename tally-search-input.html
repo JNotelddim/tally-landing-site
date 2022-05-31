@@ -14,6 +14,7 @@
         content="7W1ICFYwXdcd16JNXcu1Y7KWN2FS8qfhCDC4W0+KrayY7KHVinpmgaFpZaBLesuoPVCyq6XEDqRCvMf5EIPtfw==">
     <link rel="stylesheet" media="screen"
         href="https://d2yyb7ppir675o.cloudfront.net/assets/widget-embed-v2-71c8984f7578f5b8a5633c8bb407c3ac9d83a2e82e6bdc5fc1e7363e52e1583f.css">
+
     <style type="text/css">
         body {
             color: #000000;
@@ -238,10 +239,28 @@
             unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
         }
 
+        /* From Google's Inter Font: https://fonts.google.com/specimen/Inter?query=inter */
+        /* latin-ext */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/inter/v11/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZFhjp-Ek-_EeAmM.woff) format('woff');
+            unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+        }
+        /* latin */
+        @font-face {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            src: url(https://fonts.gstatic.com/s/inter/v11/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hjp-Ek-_EeA.woff) format('woff');
+            unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+        }
+
         /* CUSTOM STYLES */
         /* TODO: replace 'Submit' button text in Prefinery */
         body {
-            font-family: 'DM Sans';
+            font-family: 'Inter', sans-serif;
 
             /* for testing only: */
             /* background: linear-gradient(226.83deg, #FFFEF9 6.96%, #F7C7B6 85.5%); */
